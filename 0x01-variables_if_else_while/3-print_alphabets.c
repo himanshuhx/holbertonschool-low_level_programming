@@ -9,15 +9,14 @@
 int main(void)
 {
 char x;
-char y;
 
 for (x = 'a'; x <= 'z' ; x++)
 {
 putchar(x);
 }
-for (y = 'A'; y<= 'Z' ; y++)
+for (x = 'A'; x<= 'Z' ; x++)
 {
-putchar(y);
+putchar(x);
 }
 printf("\n");
 return (0);
