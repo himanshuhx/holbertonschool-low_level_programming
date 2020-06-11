@@ -19,5 +19,6 @@ for (y = 'A'; y<= 'Z'; y++)
 {
 putchar(y);
 }
+printf("\n");
 return (0);
 }
