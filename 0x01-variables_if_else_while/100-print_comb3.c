@@ -15,7 +15,7 @@ for (; y <= '9'; y++)
 {
 putchar(x);
 putchar(y);
-if ( x == '8' && y == '9')
+if (x == '8' && y == '9')
 {
 break;
 }
