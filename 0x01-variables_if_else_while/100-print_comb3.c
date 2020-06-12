@@ -9,10 +9,10 @@ int main(void)
   int x;
   int y;
 
-  for (x = '0'; x <= '9'; x++)
+  for ( x = '0' ; x <= '9'; x++ )
     {
       y = x + 1;
-      for (; y <= '9'; y++)
+      for (; y <= '9'; y++ )
 	{
 	  putchar(x);
 	  putchar(y);
