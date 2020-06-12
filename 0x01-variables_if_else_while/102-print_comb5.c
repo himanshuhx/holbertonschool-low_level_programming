@@ -19,21 +19,20 @@ int main(void)
 	    { 
 	      for (w = y + 1; w <= '9'; w++)
 		{
-	  putchar(x);
-	  putchar(y);
-	  putchar(' ');
-	  putchar(z);
-	  putchar(w);
-	  if ( x != '9' || y != '8' || z != '9' || w != '9')
-	    {
-	  putchar(',');
-	  putchar(' ');
-	    }
+		  putchar(x);
+		  putchar(y);
+		  putchar(' ');
+		  putchar(z);
+		  putchar(w);
+		  if ( x != '9' || y != '8' || z != '9' || w != '9')
+		    {
+		      putchar(',');
+		      putchar(' ');
+		    }
 		}
 	    }
 	}
-      
     }
-  putchar('\n');
-  return(0);
+putchar('\n');
+return(0);
 }
