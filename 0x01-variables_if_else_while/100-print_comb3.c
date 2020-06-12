@@ -11,7 +11,7 @@ int main(void)
 
   for (x = '0'; x <= '9'; x++)
     {
-      y =x+1;
+      y = x + 1;
       for ( ;  y <= '9'; y++)
 	{
 	  putchar(x);
@@ -20,10 +20,10 @@ int main(void)
 	    {
 	      break;
 	    }
-	  putchar(',');
-	  putchar(' ');
+	  putchar (',');
+	  putchar (' ');
 	}
     }
-  putchar('\n');
+  putchar ('\n');
   return (0);
 }
