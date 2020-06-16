@@ -1,8 +1,9 @@
 #include "holberton.h"
 /**
+ * main - Entry point
  *
- *
- *
+ * Return: Always 0 (Success)
+ * commentis are here for u betty
  */
 int main(void)
 {
