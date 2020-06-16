@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * print_alphabet_x10  - print alphabet*10
- * @void: void argument
+ * print_alphabet_x10  - print alphabet
+ * @void: no argument
  *
  * Return: Always 0 (Success)
  *
