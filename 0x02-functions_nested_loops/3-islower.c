@@ -5,9 +5,9 @@
  *@c: for integers
  * Return: Always 0 (Success)
  */
-int _islower(int x)
+int _islower(int c)
 {
-if (x >='a' && x <= 'z')
+if (c >= 'a' && c <= 'z')
 {
 return (1);
 }
@@ -15,4 +15,4 @@ else
 {
 return (0);
 }
-} 
+}
