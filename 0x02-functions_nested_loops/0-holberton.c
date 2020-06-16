@@ -1,12 +1,16 @@
-#include <stdio.h>
+#include "holberton.h"
 /**
- * main - Content  main 
  *
  *
- * Return 0: Success (Ready)
+ *
  */
 int main(void)
 {
-  printf("Holberton\n");
-  return(0);
+  char x[] = "Holberton\n";
+  int y;
+  for ( y = 0; y <=9; y++)
+    {
+      _putchar(x[y]);
+    }
+  return (0);
 }
