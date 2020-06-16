@@ -1,6 +1,5 @@
 #include "holberton.h"
 /**
- *
  * _islower - checks lowercase
  *@c: for integers
  * Return: Always 0 (Success)
