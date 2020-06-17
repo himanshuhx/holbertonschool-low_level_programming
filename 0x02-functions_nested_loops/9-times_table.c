@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * times_table - times table in c
  *@void: void
@@ -7,7 +6,7 @@
  */
 void times_table(void)
 {
-  int a, b, c, d, e;
+int a, b, c, d, e;
 
 a = 0;
 while (a <= 9)
@@ -15,7 +14,7 @@ while (a <= 9)
 b = 0;
 while (b <= 9)
 {
-c = a * b;
+c = a *b;
 d = c / 10;
 e = c % 10;
 if (b == 0)
