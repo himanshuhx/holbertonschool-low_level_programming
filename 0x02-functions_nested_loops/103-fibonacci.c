@@ -15,7 +15,9 @@ c = a + b;
 a = b;
 b = c;
 if (c > 0 && c <= 4000000)
+  {
 t = t + c;
+  }
 }
 printf("%ld\n", t);
 return (0);
