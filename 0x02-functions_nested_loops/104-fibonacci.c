@@ -15,7 +15,7 @@ c = a + b;
 a = b;
 b = c;
 printf("%.0f", c);
-if (d == 99)
+if (d == 98)
 {
 printf("\n");
 }
