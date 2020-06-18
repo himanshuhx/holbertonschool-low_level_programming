@@ -9,11 +9,12 @@ long int a, b, c, t;
 int d;
 a = 0;
 b = 1;
-for (d = 0; d < 32 ; d++)
+for (d = 0; d < 50 ; d++)
 {
 c = a + b;
 a = b;
 b = c;
+if (c > 0 && c <= 4000000)
 t = t + c;
 }
 printf("%ld\n", t);
