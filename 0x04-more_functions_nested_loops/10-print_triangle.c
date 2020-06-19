@@ -1,4 +1,4 @@
-B#include "holberton.h"
+#include "holberton.h"
 /**
  *print_triangle - print triangle with spaces and #.
  *@size: integer
