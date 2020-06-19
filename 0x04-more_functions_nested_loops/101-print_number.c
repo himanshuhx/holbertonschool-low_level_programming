@@ -32,7 +32,7 @@ void print_number(int n)
 	_putchar((c / 10) % 10 + '0');
 	_putchar(c % 10 + '0');
 	}
-	else if (c >= 1000 && c <= 9999)
+	else
 	{
 		_putchar(c / 1000 + '0');
 		_putchar((c / 100) % 10 + '0');
