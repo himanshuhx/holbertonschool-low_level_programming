@@ -1,4 +1,4 @@
-#include "holberton.h"
+B#include "holberton.h"
 /**
  * _strlen - return the length of a string
  *@s: pointer.
@@ -7,6 +7,7 @@
 int _strlen(char *s)
 {
 	int n;
+
 	while (*s != 0)
 	{
 		s++;
