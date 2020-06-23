@@ -1,4 +1,4 @@
-B#include "holberton.h"
+#include "holberton.h"
 /**
  * _strlen - return the length of a string
  *@s: pointer.
