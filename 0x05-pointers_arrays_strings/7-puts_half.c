@@ -7,20 +7,13 @@
 void puts_half(char *str)
 {
 	int c = 0;
-	int a;
+	int a = 0;
 
 	while (str[c] != 0)
 	{
 		c++;
 	}
-	if (c % 2 == 0)
-	{
-		a = c / 2;
-	}
-	else
-	{
-	a = ((c - 1) / 2);
-	}
+	a = ((c / 2) + (c % 2));
 	while (str[a] != 0)
 	{
 		_putchar(str[a]);
